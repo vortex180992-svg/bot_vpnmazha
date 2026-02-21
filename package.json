@@ -1,0 +1,19 @@
+{
+  "name": "telegram-vpn-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram untuk pembelian VPN",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "qrcode": "^1.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
